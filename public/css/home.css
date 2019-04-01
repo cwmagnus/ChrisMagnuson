@@ -1,0 +1,41 @@
+
+/* About Me block */
+.about-me {
+    background-color: brown;
+    padding: 5em;
+    color: white;
+}
+
+.about-heading {
+    font-size: 3em;
+}
+
+.about-sub-heading {
+    font-size: 1.5em;
+}
+
+.about-content {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    border: 10px solid #343434;
+}
+
+@media (max-width: 991.98px) 
+{ 
+    .center-md {
+        text-align: center;
+    }
+}
+
+/* Sticky style */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
