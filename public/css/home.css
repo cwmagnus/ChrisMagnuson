@@ -40,9 +40,24 @@
     text-align: center;
 }
 
-/* Sticky style */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+/* Skills block */
+.skills {
+    padding: 2em;
+}
+
+.skill-bg {
+    background-color: #111 !important;
+}
+
+.skill-fill {
+    background-color: brown !important;
+}
+
+.skill-item {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #111;
+    padding: 2em;
 }
