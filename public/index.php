@@ -19,6 +19,7 @@
                         <h1 class="about-heading center-md">Chris Magnuson</h1>
                         <h4 class="about-sub-heading center-md">Software Developer</h4>
                         <p class="about-content center-md">About me!</p>
+                        <a type="button" class="btn btn-outline-light" href="/portfolio.php">Download Resume</a>
                     </div>
                 </div>
             </div>
@@ -70,53 +71,52 @@
                 <div class="container">
                     <h1 class="text-light center-md pt-3 pb-1">Skills</h1>
                     <div class="row">
-                        <div class="col-md-3">
-                            <p class="text-light">
-
-                            </p>
+                        <div class="col-lg-3 center-md mb-5">
+                            <p class="text-light">My skills!</p>
+                            <a type="button" class="btn btn-outline-light" href="/portfolio.php">View Skills</a>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-lg-9">
                             <div class="row">
-                                <div class="col-3">
+                                <div class="col-lg-3">
                                     <div class="progress brown">
                                         <span class="progress-left">
                                             <span class="progress-bar progress-bar-left-100"></span>
                                         </span>
                                         <span class="progress-right">
-                                            <span class="progress-bar progress-bar-right-100"></span>
+                                            <span class="progress-bar progress-bar-right"></span>
                                         </span>
                                         <div class="progress-value">C#</div>
                                     </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3">
                                     <div class="progress brown">
                                         <span class="progress-left">
                                             <span class="progress-bar progress-bar-left-80"></span>
                                         </span>
                                         <span class="progress-right">
-                                            <span class="progress-bar progress-bar-right-80"></span>
+                                            <span class="progress-bar progress-bar-right"></span>
                                         </span>
                                         <div class="progress-value">ASP.NET</div>
                                     </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3">
                                     <div class="progress brown">
                                         <span class="progress-left">
                                             <span class="progress-bar progress-bar-left-90"></span>
                                         </span>
                                         <span class="progress-right">
-                                            <span class="progress-bar progress-bar-right-90"></span>
+                                            <span class="progress-bar progress-bar-right"></span>
                                         </span>
                                         <div class="progress-value">C++</div>
                                     </div>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-lg-3">
                                     <div class="progress brown">
                                         <span class="progress-left">
                                             <span class="progress-bar progress-bar-left-70"></span>
                                         </span>
                                         <span class="progress-right">
-                                            <span class="progress-bar progress-bar-right-70"></span>
+                                            <span class="progress-bar progress-bar-right"></span>
                                         </span>
                                         <div class="progress-value">SQL</div>
                                     </div>

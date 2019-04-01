@@ -82,27 +82,15 @@
 }
 
 .progress-bar-left-90{
-    animation: loading-90 2s linear forwards 2s;
-}
-
-.progress-bar-right-90{
-    animation: loading-90 2s linear forwards;
+    animation: loading-90 1.8s linear forwards 2s;
 }
 
 .progress-bar-left-80{
-    animation: loading-80 2s linear forwards 2s;
-}
-
-.progress-bar-right-80{
-    animation: loading-80 2s linear forwards;
+    animation: loading-80 1.6s linear forwards 2s;
 }
 
 .progress-bar-left-70{
-    animation: loading-70 2s linear forwards 2s;
-}
-
-.progress-bar-right-70{
-    animation: loading-70 2s linear forwards;
+    animation: loading-70 1.4s linear forwards 2s;
 }
 
 @keyframes loading-100{
@@ -122,8 +110,30 @@
         transform: rotate(0deg);
     }
     100%{
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+
+@keyframes loading-80{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(108deg);
+        transform: rotate(108deg);
+    }
+}
+
+@keyframes loading-70{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(72deg);
+        transform: rotate(72deg);
     }
 }
 
