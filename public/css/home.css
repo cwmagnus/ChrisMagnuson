@@ -33,6 +33,13 @@
     }
 }
 
+/* Portfolio block */
+.portfolio-footer {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
 /* Sticky style */
 .sticky {
     position: fixed;

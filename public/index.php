@@ -25,28 +25,52 @@
 
         <?php include("../include/navigation.php"); ?>
 
-        <div class="container">
+        <div class="container content">
+            <h1 class="text-light center-md">Featured Projects</h1>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-8">
                     <div id="portfolioCarouselHome" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="..." alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="..." alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="..." alt="Third slide">
+                                <img class="d-block w-100" src="https://via.placeholder.com/850x500" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1 class="text-dark">ERC Training Application</h1>
+                                    <p class="text-dark">Training application made for the Air Force Research Laboratory</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    
+                <div class="col-lg-4">
+                    <div class="row pt-4">
+                        <div class="col-6 p-3">
+                            <img class="d-block w-100" src="https://via.placeholder.com/300">
+                        </div>
+                        <div class="col-6 p-3">
+                            <img class="d-block w-100" src="https://via.placeholder.com/300">
+                        </div>
+                        <div class="col-6 p-3">
+                            <img class="d-block w-100" src="https://via.placeholder.com/300">
+                        </div>
+                        <div class="col-6 p-3">
+                            <img class="d-block w-100" src="https://via.placeholder.com/300">
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="portfolio-footer">
+                <p class="text-light">Want to see all my projects?</p>
+                <a type="button" class="btn btn-outline-light" href="/portfolio.php">View Portfolio</a>
+            </div>
         </div>
+
+        <div class="contrast-box">
+            <div class="container">
+                <h1 class="text-light center-md pt-3 pb-1">Skills</h1>
+            </div>
+        </div>
+
+        <?php include("../include/footer.php"); ?>
 
         <?php include("../include/scripts.php"); ?>
         <script src="js/sticky.js"></script>

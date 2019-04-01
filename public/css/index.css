@@ -5,4 +5,45 @@ body {
 
 .navbar {
     background-color: #353535 !important;
+    box-shadow: 0px 0px 3px black;
+}
+
+.nav > .nav-item > a {
+    font-size: 1.15em;
+    margin-right: 10px;
+}
+
+.navbar > .container > a {
+    font-size: 1.5em;
+}
+
+.content {
+    padding-top: 2em;
+}
+
+.contrast-box {
+    background-color: #353535;
+    box-shadow: 0px 0px 3px black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btn-outline-light {
+    color: white !important;
+} .btn-outline-light:hover {
+    color: #222 !important;
+}
+
+.footer {
+    box-shadow: 0px 0px 3px black;
+    background-color: brown;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.light-link {
+    color: white !important;
+} .light-link:hover {
+    color: lightgray !important;
+    text-decoration: none;
 }
